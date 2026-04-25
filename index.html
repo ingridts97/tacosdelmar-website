@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tacos del Mar - Catering</title>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Welcome to Tacos del Mar</h1>
+            <p>Your favorite catering service for every occasion</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Taco Bites</h3>
+            <p>Delicious mini tacos with your choice of filling.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Burrito Platter</h3>
+            <p>Full-sized burritos served with sides.</p>
+        </div>
+        <!-- Add more menu items as needed -->
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            <p>"The best catering service ever! Everything was perfect!" - Jane Doe</p>
+        </blockquote>
+        <blockquote>
+            <p>"Amazing food and great service! Highly recommend." - John Smith</p>
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-contact-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Tacos del Mar</p>
+        <a href="https://wa.me/15555555555">Chat with us on WhatsApp</a> <!-- Change the number accordingly -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
